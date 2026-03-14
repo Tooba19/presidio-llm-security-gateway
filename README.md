@@ -111,12 +111,16 @@ Dataset file:
 eval/prompts.jsonl
 
 Each entry contains:
+```
 
 {
 "text": "...",
+
 "label": "ALLOW/MASK/BLOCK",
+
 "category": "benign/pii/injection/mixed"
 }
+```
 
 The dataset is used by `eval/run_eval.py` to measure detection performance.
 
