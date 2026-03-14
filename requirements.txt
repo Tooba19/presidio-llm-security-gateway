@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+presidio-analyzer
+presidio-anonymizer
+spacy
+numpy
+regex
+scikit-learn
