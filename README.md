@@ -12,6 +12,20 @@ This project implements a lightweight preprocessing layer for LLM systems. It an
 
 The system is implemented with FastAPI and includes configurable thresholds, latency measurement, and an evaluation pipeline.
 
+## System Architecture
+
+The security gateway acts as a preprocessing layer between users and the LLM.
+
+User Input  
+→ Injection Detection  
+→ Presidio PII Analyzer  
+→ Policy Engine  
+→ Output Decision (ALLOW / MASK / BLOCK)
+
+<p align="center">
+<img src="figures/arch.png" width="700">
+</p>
+
 ## Features
 
 - Rule-based prompt injection / jailbreak detection
@@ -43,3 +57,4 @@ eval/
 
 requirements.txt
 README.md
+
