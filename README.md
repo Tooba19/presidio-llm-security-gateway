@@ -26,6 +26,26 @@ User Input
 <img src="figures/arch.png" width="700">
 </p>
 
+
+## How to Run
+
+Clone the repository:
+
+git clone https://github.com/Tooba19/presidio-llm-security-gateway.git
+cd presidio-llm-security-gateway
+
+Install dependencies:
+
+pip install -r requirements.txt
+python -m spacy download en_core_web_lg
+
+Run the API:
+
+uvicorn app.main:app --reload
+
+Open Swagger UI:
+
+http://127.0.0.1:8000/docs
 ## Features
 
 - Rule-based prompt injection / jailbreak detection
@@ -58,3 +78,9 @@ eval/
 requirements.txt
 README.md
 
+
+## Technical Report
+
+The full technical report describing the system design, threat model, Presidio customization, and evaluation is available in:
+
+report/presidio_llm_security_gateway_report.pdf
