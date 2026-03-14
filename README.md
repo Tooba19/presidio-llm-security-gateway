@@ -43,7 +43,10 @@ Run the API:
 
 uvicorn app.main:app --reload
 
-Open Swagger UI:
+Open Swagger UI:git add README.md
+git commit -m "Add report link to README"
+git push
+
 
 http://127.0.0.1:8000/docs
 
@@ -86,8 +89,4 @@ requirements.txt
 README.md
 
 
-## Technical Report
 
-The full technical report describing the system design, threat model, Presidio customization, and evaluation is available in:
-
-report/presidio_llm_security_gateway_report.pdf
