@@ -46,6 +46,13 @@ uvicorn app.main:app --reload
 Open Swagger UI:
 
 http://127.0.0.1:8000/docs
+
+## Technical Report
+
+The full technical report describing the threat model, Presidio customization, system architecture, and evaluation is available here:
+
+[Download Report](report/report.pdf)
+
 ## Features
 
 - Rule-based prompt injection / jailbreak detection
