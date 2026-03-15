@@ -166,6 +166,17 @@ The full technical report describing the threat model, Presidio customization, s
 
 [Download Report](report/report.pdf)
 
+
+## Project Demo
+
+Short System demonstration video: 
+
+```
+
+https://drive.google.com/file/d/1KdAf0aKHOIBgwUS_yLC9ph-0H7_AE5Ns/view?usp=share_link
+
+```
+
 ## Limitations
 
 The current system uses rule-based injection detection.
